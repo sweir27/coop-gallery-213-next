@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Theme } from '../components/Theme'
 import { Home } from '../components/Home/Home'
 
-export default function App() {
+const App: React.FC = () => {
   return (
     <Theme>
       <Head>
@@ -16,3 +16,5 @@ export default function App() {
     </Theme>
   )
 }
+
+export default App
