@@ -24,10 +24,5 @@
     "eslint": "^7.12.1",
     "husky": "^5.0.0-beta.0",
     "typescript": "^4.0.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn eslint . --ext .js,.jsx,.ts,.tsx"
-    }
   }
 }
